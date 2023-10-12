@@ -63,6 +63,13 @@ footer{
     margin: 100px 50px;
   }
 
+
+  .form{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+
   /*Testing Buttons*/
 
   .buttons {
@@ -114,12 +121,6 @@ footer{
   button:active {
     --s: #0005;
     transition: none;
-  }
-
-  .form{
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
   }
   
   
