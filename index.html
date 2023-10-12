@@ -6,6 +6,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/style.css">
   <title>About Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!--NavBar-->
@@ -13,7 +17,7 @@
   <!--Logo-->
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="./Images/Logo.png" alt="Logo" height="65px">
+        <img src="./Images/Logo.png" alt="Logo" height="55">
       </a>
 <!--NavToggler-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,10 +32,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
+            <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -41,17 +45,66 @@
     </div>
   </nav>
 
-<!--Home Information-->
-<div class="container-fluid main-body">
-  <div class="row">
-    <div class="col-md-6 offset-md-3 intro-box">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, quidem quisquam sit fugiat corporis praesentium delectus sed aperiam voluptates recusandae eum possimus qui corrupti magni perspiciatis autem quam, nobis modi?</p>
-        <p>Recusandae ad possimus illo, veritatis fuga impedit vitae eius quidem unde, culpa ab placeat id laudantium. Ullam, natus unde! Quisquam a harum incidunt inventore illum quae in labore praesentium perspiciatis.</p>
-        <p>Atque et exercitationem, id odio consequatur natus, explicabo delectus, odit omnis facilis harum obcaecati soluta quis incidunt accusantium quibusdam laudantium nobis cum! Consequatur doloribus, quis vel explicabo non placeat perferendis.</p>
-    </div>
+<!--Home Information/First Container-->
+<!--Intro and Intro Image-->
+<div class="flex-container align-items-start">
+  
+  <div class="row col-md-auto d-none d-md-block">
+      <img src="./Images/intro_image.png" alt="logo" height="350">
+  </div>
+  
+  <div class="intro col-md-4 col-lg-6">
+    <h1>Hi there, I am Cheyenne Fahr.</h1>
+    <p>I current working at SAIC as a Program Analyst. In July of 2023 I took a leap into a Software Engineering bootcamp sponsored by The University of Tennessee. During this course I was able to hone in on my coding and programming skills learning essential coding and frameworks. </p>
+    <p>Want to know more? Feel free to check out my experience, projects and more!</p>
+  </div>
+</div>
+
+<!--Buttons-->
+<div class="container">
+  <div class="buttons">
+    <button>Experience</button>
+    <button style="--color:#FFA700">Projects</button>
+    <button style="--color:#393939">Contact</button>
   </div>
 </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
 </body>
+
+<footer class="text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="mailto:cheyennefahr334@gmail.com" role="button" target="_blank"
+        ><i class="fa fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/cheyennefahr/" role="button" target="_blank"
+        ><i class="fa fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/cheyenne-fahr" role="button" target="_blank"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/cheyennefahr123" role="button" target="_blank"
+        ><i class="fa fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://c.fahr.com/">c.fahr.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 </html>
