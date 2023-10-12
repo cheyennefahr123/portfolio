@@ -1,9 +1,44 @@
 /*Effects Entire Page*/
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /*Navbar Settings*/
 
+.navbar{
+    padding: 0;
+    background-color: black;
+}
+
 .navbar-nav > li{
-    margin-left:15px;
-    margin-right:30px;
+    padding-left:30px;
+    padding-right:30px;
   }
 
+.nav-item{
+    border: solid .5em;
+    border-radius: 1em;
+    border-color: black;
+}
+
+.nav-item:hover{
+    border: solid .5em #07343b;
+    border-radius: 1em;
+    background-color: #07343b;
+  } 
+
+
+.main-body{
+    color: #ffffff;
+    background-image: url("../Images/INTRO_BACKGROUND.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.intro-box{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(128, 128, 128, .3)
+}
