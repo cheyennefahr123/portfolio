@@ -5,15 +5,43 @@
     padding: 0;
 }
 
-h1{
+h1, h2, h3, h4, h5{
     font-family: 'Anton', sans-serif;
   }
+
 
 footer{
     background-color: black;
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+p{
+  margin: 0;
+}
+
+.saic{
+  color: #016bb5;
+}
+
+.vantage{
+  color: #202e62;
+}
+
+.albright{
+  color:#a42035;
+}
+
+.quick{
+  color: #0d395a;
+}
+
+li {
+  margin-left: 20px;
+}
+ul li{ 
+  margin-left: 30px;
 }
 
 body{
