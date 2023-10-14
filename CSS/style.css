@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5{
     font-family: 'Anton', sans-serif;
   }
 
+h4{
+  color: #393939;
+}
+
 
 footer{
     background-color: black;
