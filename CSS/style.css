@@ -57,18 +57,16 @@ footer{
     align-items: center;
     justify-content: center;
   }
-
+  
 
   .intro{
     margin: 100px 50px;
   }
 
-
-  .form{
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
+  .carousel{
+    width: 500px;
   }
+
 
   /*Testing Buttons*/
 
@@ -76,6 +74,7 @@ footer{
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
     column-gap: 50px;
     row-gap: 25px;
     margin-bottom: 50px;
