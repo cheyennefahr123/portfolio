@@ -116,6 +116,11 @@ footer{
     margin-bottom: 50px;
   }
 
+.big-img{
+  display:block;
+  width:100%;
+}
+
   button {
     --border: 2px;    /* the border width */
     --slant: 0.5em;   /* control the slanted corners */
