@@ -10,19 +10,19 @@ Cheyenne Fahr's Personal Website Project
 
 ## User Stories
 User Story #1: 
-* Objective: As a user (visitor), I would like to find information to contact the portfolio owner
+* Objective: As a college student majoring in software development, I would like to find information on how to contact the website's owner to contact them directly for questions I may have on setting up a portfolio website.
 * Acceptance Criteria: Ability to contact owner via form, or social media. 
-* Testing Guidelines: Successfully navigate to the “contact” page and submit a form via the contact forms & successfully navigate to the footer of the website to navigate to google email, LinkedIn and GitHub. 
+* Testing Guidelines: Successfully navigate to the “contact” page and submit a form via the contact forms & successfully navigate to the footer of the website to navigate to their google email, LinkedIn and GitHub. 
 * Testing Outcome: Successful 
 
 User Story #2:
-* Objective: As a user (recruiter), I would like to review the owner’s experience
+* Objective: As a recruiter, I would like to review the owner’s experience to see if they meet the requirements of an open position they applied to.
 * Acceptance Criteria: Ability to access experience tab and review career/education history. 
 * Testing Guidelines: Successfully navigate to the “experience” page and find all information pertaining to experience/education. 
 * Testing Outcome: Successful 
 
 User Story #3: 
-* Objective: As a user (hiring manager), I would like to be able to read about projects the owner has completed.
+* Objective: As a hiring manager, I would like to be able to read about projects the owner has completed, to see if they have the experience with tools and languages required in an open position. 
 * Acceptance Criteria: Ability to access the projects tab and be able to view cards consisting of project information.
 * Testing Guidelines: Successfully navigate to the “projects” page and find all information pertaining to previous projects.
 * Testing Outcome: Successful 
