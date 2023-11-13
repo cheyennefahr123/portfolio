@@ -1,4 +1,5 @@
 # portfolio
+## Details
 Cheyenne Fahr's Personal Website Project 
 * Hosting link: https://cheyennefahr123.github.io/portfolio/
 * This is a personal website to be further improved upon. It lays out basic contact information, experience and has an outline of where projects can be linked to on the projects tab.
